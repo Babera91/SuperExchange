@@ -1,0 +1,45 @@
+.DashCryptoGrid {
+    color: #333;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    padding: 0.5rem 2rem;
+}
+.DashCryptoHeader {
+    font-size: 1.2em;
+    font-weight: 900;
+    border-bottom: 1px solid black;
+}
+.DashCryptoGrid p:first-of-type {
+    text-align: left;
+}
+.DashCryptoGrid p:last-of-type {
+    text-align: Right;
+}
+
+.DashCryptoGrid img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.DashCryptoItem a {
+    text-decoration: none;
+}
+.DashCryptoItem:nth-of-type(even) {
+    background: #fef8f8;
+}
+
+@media(max-width:414px){
+    .crypto p{
+        padding: 0rem 0rem 0rem 3rem;
+    }
+
+
+    .crypto p:last-of-type{
+        padding: 0rem 0rem 0rem 2rem
+    }
+    
+    
+    .cryptoHeader p:first-of-type{
+        padding: 0rem 0rem 0rem 3rem
+    }
+}

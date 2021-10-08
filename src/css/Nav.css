@@ -1,0 +1,63 @@
+@font-face {
+    font-family: HelvThin;
+    src: url("./fonts/Helvetica-Neue-Font/Helvetica\ Neue\ UltraLight/Helv1.ttf");
+}
+
+@font-face {
+    font-family: HelvThick;
+    src: url("./fonts/Helvetica-Neue-Font/Helvetica\ Neue\ Medium\ Extended/Helv2.ttf");
+}
+
+@font-face {
+    font-family: HelvMiddle;
+    src: url("./fonts/Helvetica-Neue-Font/Helvetica\ Neue\ W01\ 66\ Medium\ It/Helv3.ttf");
+}
+
+.navBar {
+    width: 20vw;
+    height: 100vh;
+    background-color: #fefaf9;
+    /* float: left; */
+}
+
+.navBar>h1 {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: HelvThin;
+    margin-top: 6rem;
+}
+
+#super {
+    font-family: HelvThick;
+    font-weight: normal;
+}
+
+#logoPic {
+    width: 1.5vw;
+    /* margin: 0; */
+    padding-right: 15px;
+}
+
+.divLink {
+    margin: 110px 60px 0px 65px;
+}
+
+.divLink > div {
+    padding-bottom: 55px;
+}
+
+.NavLinkImage {
+    padding-right: 35px;
+}
+
+.NavLink {
+    text-decoration: none;
+    color: #6f6c99;
+}
+
+/* Mobile Version */
+@media (max-width: 414px) {
+    .navBar {
+        display: none;
+    }
+}

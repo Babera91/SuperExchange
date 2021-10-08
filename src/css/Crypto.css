@@ -1,0 +1,28 @@
+.crypto {
+    width: 80vw;
+    padding: 3% 0 0 5%;
+}
+.cryptoHeader>h2{
+    color: #4C4C66;
+    font-size: 1.9em;
+    padding-bottom: 10px;
+}
+
+.cryptoHeader>p{
+    color: #6F6C99;
+    font-size: 0.9em;
+    padding-bottom: 25%;
+}
+
+@media(max-width:414px){
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .plotly{
+        margin-top: 2rem;
+    }
+    
+}

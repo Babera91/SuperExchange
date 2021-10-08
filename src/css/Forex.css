@@ -1,0 +1,90 @@
+.forex{
+    width: 80vw;
+    padding: 3% 0 0 5%;
+}
+.forexHeader > h2{
+    color: #4C4C66;
+    font-size: 1.9em;
+    padding-bottom: 10px;
+}
+
+.forexHeader > p{
+    color: #6F6C99;
+    font-size: 0.9em;
+    padding-bottom: 25%;
+}
+
+.exchange {
+    text-align: center;
+}
+
+/* EXCHANGE RATE */
+
+.forex_container{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: #6F6C99;
+}
+
+/* AMOUNT */
+
+.Amount{
+    /* margin: 20px 40px;    */
+    margin-left: 40px;
+    font-size: 1em;
+}
+
+/* INPUT  */
+
+.forexInput{
+    border: 1px solid #c9c5c5;
+    background-color: #FEF8F8;
+    border-radius: 2px;
+}
+
+/* MIDDLE FLAG */
+
+.textForex{
+    font-size: 0.8em;
+    padding-bottom: 20px;
+
+}
+
+/* WÄHRUNG */
+
+.forexCurriency{
+    color:#53B9EA;
+}
+
+
+
+
+@media(max-width:414px){
+    body{
+        margin-top: 20%;
+        text-align: center;
+    }
+    input{
+        margin-top: 5%;
+        padding: 2%;
+        box-shadow: 0em 0em 0.5em black;
+        background-color: #FEF8F8;
+    }
+
+    .Amount{
+        margin-top: 5%;
+    }
+    .Exchange{
+    
+        margin-top: 15%;
+        margin-right: 5%;
+        margin-left:5%;
+        box-shadow: 0em 0em 0.5em black;
+
+    }
+    .ContentFlags{
+        margin-top: 5%;
+        
+    }
+}

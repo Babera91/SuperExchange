@@ -1,0 +1,46 @@
+@font-face {
+    font-family: AvenirNorm;
+    src: url("./fonts/Avenir/AvenirNormal.otf");
+}
+
+@font-face {
+    font-family: AvenirFett;
+    src: url("./fonts/Avenir/AvenirFett.otf");
+}
+
+
+.DashStockGrid {
+    color: #333;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    padding: 0.5rem 1rem;
+    font-family: AvenirNorm;
+}
+.DashStockGridHeader {
+    font-size: 1.2em;
+    font-weight: 900;
+    border-bottom: 1px solid black;
+}
+.DashStockGrid p:first-of-type {
+    text-align: left;
+}
+.DashStockGrid p:not(:first-of-type) {
+    text-align: Right;
+}
+
+.DashStockElement a {
+    text-decoration: none;
+}
+.DashStockElement:nth-of-type(even) {
+    background: #fef8f8;
+}
+
+
+
+/* Mobile Version */
+@media (max-width:414px){
+    .DashStockGrid{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 5%;
+    } 
+}

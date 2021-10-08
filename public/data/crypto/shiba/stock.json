@@ -1,0 +1,13 @@
+{
+    "Realtime Currency Exchange Rate": {
+        "1. From_Currency Code": "SHIB",
+        "2. From_Currency Name": "SHIBA-INU",
+        "3. To_Currency Code": "CNY",
+        "4. To_Currency Name": "Chinese Yuan",
+        "5. Exchange Rate": "0.00004831",
+        "6. Last Refreshed": "2021-09-23 16:32:27",
+        "7. Time Zone": "UTC",
+        "8. Bid Price": "0.00004825",
+        "9. Ask Price": "0.00004831"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "Realtime Currency Exchange Rate": {
+        "1. From_Currency Code": "LTC",
+        "2. From_Currency Name": "Litecoin",
+        "3. To_Currency Code": "CNY",
+        "4. To_Currency Name": "Chinese Yuan",
+        "5. Exchange Rate": "1033.39200000",
+        "6. Last Refreshed": "2021-09-23 16:35:10",
+        "7. Time Zone": "UTC",
+        "8. Bid Price": "1032.74613000",
+        "9. Ask Price": "1033.39200000"
+    }
+}

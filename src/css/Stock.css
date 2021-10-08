@@ -1,0 +1,75 @@
+@font-face {
+    font-family: HelvThin;
+    src: url("./fonts/Helvetica-Neue-Font/Helvetica\ Neue\ UltraLight/Helv1.ttf");
+  }
+
+@font-face {
+    font-family: HelvThick;
+    src: url("./fonts/Helvetica-Neue-Font/Helvetica\ Neue\ Medium\ Extended/Helv2.ttf");
+}
+
+@font-face {
+    font-family: HelvMiddle;
+    src: url("./fonts/Helvetica-Neue-Font/Helvetica\ Neue\ W01\ 66\ Medium\ It/Helv3.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+/* Headline  */
+.StockHeader {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+.StockHeaderTitle > h2{
+    color: #4C4C66;
+    font-size: 1.9em;
+    padding-bottom: 10px;
+}
+
+.StockHeaderTitle > p{
+    color: #6F6C99;
+    font-size: 0.9em;
+}
+
+/* company  */
+
+.Stock {
+    width: 80vw;
+    padding: 3% 0 0 5%;
+}
+
+.StockData {
+    padding-top: 2rem;
+    margin-left: 70px;
+}
+
+.StockData >  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.95em;
+}
+
+/* Searchbar */
+
+.StockHeaderSearch {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 5%;
+}
+.StockHeaderSearch input {
+    font-size: 1.2rem;
+    border: none;
+    background: #fef8f8;
+}
+    
+.StockHeaderSearch button {
+    border: none;
+    background: transparent;
+}
+
+.StockHeaderSearch button img {
+    height: 1.5rem;
+}

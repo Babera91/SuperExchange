@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    display: flex;
+}
+
+/* .navBar {
+    width: 20vw;
+    height: 100vh;
+    background-color: grey;
+    float: left;
+}
+
+.navBar > h1 {
+    text-align: center;
+    font-size: 2vw;
+} */
+
+/* width: 2rem;
+    height: 2rem;
+    border-radius: 2rem; */
+
+.forex img {
+    width: 3vw;
+    border-radius: 50%;
+}

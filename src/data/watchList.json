@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Apple Inc",
+        "symbol": "AAPL"
+    },
+    {
+        "name": "Blackrock Inc",
+        "symbol": "BLK"
+    },
+    {
+        "name": "Cisco Systems",
+        "symbol": "CSCO"
+    },
+    {
+        "name": "IBM International",
+        "symbol": "IBM"
+    },
+    {
+        "name": "Microsoft Corp",
+        "symbol": "MSFT"
+    },
+    {
+        "name": "MSCI Inc.",
+        "symbol": "MSCI"
+    },
+    {
+        "name": "Tesla",
+        "symbol": "TSLA"
+    },
+    {
+        "name": "Astra Space Inc",
+        "symbol": "ASTR"
+    }
+]

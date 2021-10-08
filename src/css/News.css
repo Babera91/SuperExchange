@@ -1,0 +1,27 @@
+.news>div{
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 5%;
+    padding: 3% 0 0 5%;
+}
+
+.news>h2{
+    color: #4C4C66;
+    font-size: 1.9em;
+    padding: 3% 0 0 5%;
+    margin-bottom: 10px;
+}
+
+.newsItem {
+    padding-bottom: 2rem;
+}
+
+.newsTitle>h2, .newsTitle>h3{
+    padding-bottom: 3%;
+    color: #4C4C66;
+}
+.newsTitle>h3:last-of-type{
+    padding-bottom: 4%;
+}

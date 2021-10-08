@@ -1,0 +1,39 @@
+.DashForexHeader {
+    border-bottom: 1px solid black;
+    color: #53b9ea;
+}
+.DashForexGrid {
+    padding: 0.5rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+.DashForexFlag {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+}
+
+/* Mobile Version */
+@media (max-width: 414px){
+
+    .DashForexGrid{
+    padding: 0.5rem 0.1rem;
+    padding-right: 4%;
+    
+    }
+
+    .DashForexHeader{
+        padding-top: 10%;
+        padding-right: 4%;
+    }
+
+
+    .DashForexFlag {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 2rem;
+        margin-right: 5%;
+    }
+}

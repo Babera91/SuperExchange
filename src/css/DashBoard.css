@@ -1,0 +1,42 @@
+.dashboard {
+    width: 80vw;
+    padding: 3% 0 0 5%;
+}
+
+#dashboardHeaderH2 {
+    color: #4C4C66;
+    font-size: 1.9em;
+    padding-bottom: 10px;
+}
+
+#dashBoardHeaderText {
+    color: #6f6c99;
+    font-size: 0.8em;
+    padding-bottom: 40px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 8%;
+}
+
+.DashStockGridHeader {
+    font-size: 1em;
+    font-family: AvenirNorm;
+}
+
+/* Mobile Version */
+
+@media (max-width: 414px) {
+    section {
+        display: block;
+    }
+    h2 {
+        text-align: center;
+    }
+    #text {
+        text-align: center;
+    }
+}

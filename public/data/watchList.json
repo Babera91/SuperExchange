@@ -1,0 +1,100 @@
+[
+    {
+        "Global Quote": {
+            "01. symbol": "AAPL",
+            "02. open": "144.4500",
+            "03. high": "146.4300",
+            "04. low": "143.7001",
+            "05. price": "145.8500",
+            "06. volume": "76404341",
+            "07. latest trading day": "2021-09-22",
+            "08. previous close": "143.4300",
+            "09. change": "2.4200",
+            "10. change percent": "1.6872%"
+        }
+    },
+    {
+        "Global Quote": {
+            "01. symbol": "BLK",
+            "02. open": "856.4500",
+            "03. high": "858.9789",
+            "04. low": "847.8100",
+            "05. price": "851.0500",
+            "06. volume": "544222",
+            "07. latest trading day": "2021-09-22",
+            "08. previous close": "845.2400",
+            "09. change": "5.8100",
+            "10. change percent": "-0.6874%"
+        }
+    },
+    {
+        "Global Quote": {
+            "01. symbol": "CSCO",
+            "02. open": "55.7621",
+            "03. high": "56.1300",
+            "04. low": "55.3700",
+            "05. price": "55.5200",
+            "06. volume": "17940644",
+            "07. latest trading day": "2021-09-22",
+            "08. previous close": "55.2600",
+            "09. change": "0.2600",
+            "10. change percent": "0.4705%"
+        }
+    },
+    {
+        "Global Quote": {
+            "01. symbol": "IBM",
+            "02. open": "133.7200",
+            "03. high": "135.3700",
+            "04. low": "133.4700",
+            "05. price": "134.6300",
+            "06. volume": "3602416",
+            "07. latest trading day": "2021-09-22",
+            "08. previous close": "132.9700",
+            "09. change": "1.6600",
+            "10. change percent": "1.2484%"
+        }
+    },
+    {
+        "Global Quote": {
+            "01. symbol": "MSFT",
+            "02. open": "296.7250",
+            "03. high": "300.2200",
+            "04. low": "294.5100",
+            "05. price": "298.5800",
+            "06. volume": "26626342",
+            "07. latest trading day": "2021-09-22",
+            "08. previous close": "294.8000",
+            "09. change": "3.7800",
+            "10. change percent": "1.2822%"
+        }
+    },
+    {
+        "Global Quote": {
+            "01. symbol": "MSCI",
+            "02. open": "646.5300",
+            "03. high": "647.9600",
+            "04. low": "636.9200",
+            "05. price": "645.1500",
+            "06. volume": "224916",
+            "07. latest trading day": "2021-09-22",
+            "08. previous close": "640.7000",
+            "09. change": "4.4500",
+            "10. change percent": "0.6946%"
+        }
+    },
+    {
+        "Global Quote": {
+            "01. symbol": "TSLA",
+            "02. open": "743.5263",
+            "03. high": "753.6699",
+            "04. low": "739.1200",
+            "05. price": "751.9400",
+            "06. volume": "15126272",
+            "07. latest trading day": "2021-09-22",
+            "08. previous close": "739.3800",
+            "09. change": "12.5600",
+            "10. change percent": "1.6987%"
+        }
+    }
+]
